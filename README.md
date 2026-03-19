@@ -1,43 +1,37 @@
-<h1>🧠 Code Visualizer</h1>
+🧠 Code Visualizer
 
-<p>An interactive code visualizer built with <strong>React</strong> and <strong>Vite</strong>, inspired by 
-<a href="https://pythontutor.com/" target="_blank">PythonTutor.com</a>. This tool helps you understand how your code runs by showing stack frames, heap memory, and variable references in real time.</p>
+An interactive code visualizer built with React and Vite, inspired by PythonTutor.com. This tool helps you understand how your code runs by showing stack frames, heap memory, and variable references in real time.
 
-<hr>
+👥 Team Contribution
 
-<h2>🚀 Features</h2>
-<ul>
-  <li>🧮 Paste Java/Python/C++ code and visualize execution step-by-step</li>
-  <li>🧠 Stack & Heap memory visualization</li>
-  <li>🎯 Variable tracking and reference arrows</li>
-  <li>⏩ Step forward/backward through execution</li>
-  <li>💡 Test input support</li>
-  <li>🌙 Dark/light mode toggle</li>
-</ul>
+This project was collaboratively developed as a team effort.
+Team Members:
 
-<hr>
+Anjali Goswami
 
-<h2>🛠️ Tech Stack</h2>
-<ul>
-  <li><strong>Frontend:</strong> React, Tailwind CSS, Konva.js</li>
-  <li><strong>Backend</strong> (optional): Node.js / Flask (for code execution engine)</li>
-  <li><strong>Build Tool:</strong> Vite</li>
-</ul>
+Ashutosh Kumar Singh
 
-<hr>
+🚀 Features
 
-<h2>📦 Installation</h2>
-<pre><code>
+🧮 Paste Java/Python/C++ code and visualize execution step-by-step
+🧠 Stack & Heap memory visualization
+🎯 Variable tracking and reference arrows
+⏩ Step forward/backward through execution
+💡 Test input support
+🌙 Dark/light mode toggle
+
+🛠️ Tech Stack
+
+Frontend: React, Tailwind CSS, Konva.js
+Backend (optional): Node.js / Flask (for code execution engine)
+Build Tool: Vite
+
+📦 Installation
 git clone https://github.com/your-username/code-visualizer.git
 cd code-visualizer
 npm install
 npm run dev
-</code></pre>
-
-<hr>
-
-<h2>📁 Project Structure</h2>
-<pre><code>
+📁 Project Structure
 code-visualizer/
 ├── public/             # Static assets
 ├── src/
@@ -47,36 +41,29 @@ code-visualizer/
 │   └── App.jsx         # Main entry point
 ├── package.json
 └── vite.config.js
-</code></pre>
+⚙️ Usage
 
-<hr>
+Select language (Java/Python/C++)
 
-<h2>⚙️ Usage</h2>
-<ol>
-  <li>Select language (Java/Python/C++)</li>
-  <li>Paste your code in the editor</li>
-  <li>Click <strong>"Visualize"</strong></li>
-  <li>Use ⏮️ ⏭️ buttons to step through execution</li>
-  <li>See stack/heap change in real time</li>
-</ol>
+Paste your code in the editor
 
-<hr>
+Click "Visualize"
 
-<h2>📈 Future Plans</h2>
-<ul>
-  <li>✅ Code execution sandbox (Docker-based)</li>
-  <li>✅ Save & share visualization sessions</li>
-  <li>✅ Support for function call tree</li>
-  <li>✅ Drag & zoom canvas</li>
-</ul>
+Use ⏮️ ⏭️ buttons to step through execution
 
-<hr>
+See stack/heap change in real time
 
-<h2>🤝 Contributing</h2>
-<p>Pull requests are welcome! For major changes, open an issue first.</p>
+📈 Future Plans
 
-<hr>
+✅ Code execution sandbox (Docker-based)
+✅ Save & share visualization sessions
+✅ Support for function call tree
+✅ Drag & zoom canvas
 
-<h2>📝 License</h2>
-<p>This project is under the GPL-3.0 license
-.</p>
+🤝 Contributing
+
+Pull requests are welcome! For major changes, open an issue first.
+
+📝 License
+
+This project is under the GPL-3.0 license.
